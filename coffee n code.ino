@@ -305,7 +305,7 @@ void loop(){
   //for Body Temperature 
   lcd.setCursor(0,3); 
   lcd.print("Body Temp = ");
-  lcd.print(random(30,35));
+  lcd.print(readBDTemp());
   lcd.print(" C");
   delay(1000); 
 Beep(); 
