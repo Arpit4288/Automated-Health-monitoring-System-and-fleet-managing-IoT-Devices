@@ -45,7 +45,6 @@ String readDHTHumidity() {
 String readAQI()
 {
   float a = analogRead(A0); 
-  a/= 6.9;
   
   Serial.print("AQI = ");
   Serial.println(a); 
